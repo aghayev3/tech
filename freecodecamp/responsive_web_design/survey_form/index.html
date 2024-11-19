@@ -11,47 +11,54 @@
     <h1 id="title">Fitness Connection: Where Sweat Meets Strength</h1>
     <p id="description">A vibrant space for workout enthusiasts to share routines, progress, and tips. Let’s grow stronger together!</p>
     <form id="survey-form">
-      <!-- Name Input -->
-      <label id="name-label" for="name">Name</label>
-      <input id="name" type="text" placeholder="What should I call you?" required>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <!-- Name Input -->
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" placeholder="What should I call you?" required>
 
-      <!-- Email Input -->
-      <label id="email-label" for="email">Email</label>
-      <input id="email" type="email" placeholder="Do people still use these?" required>
+        <!-- Email Input -->
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" placeholder="Do people still use these?" required>
 
-      <!-- Number Input -->
-      <label id="number-label" for="number">Age</label>
-      <input id="number" type="number" placeholder="Now is the best time to start!" min="10" max="100" required>
+        <!-- Number Input -->
+        <label id="number-label" for="number">Age</label>
+        <input id="number" type="number" placeholder="Now is the best time to start!" min="10" max="100" required>
 
-      <!-- Dropdown -->
-      <label for="dropdown">Preferred Workout</label>
-      <select id="dropdown">
-        <option value="running">Running</option>
-        <option value="cycling">Cycling</option>
-        <option value="calisthenics">Calisthenics</option>
-        <option value="weight-lifting">Weight Lifting</option>
-        <option value="swimming">Swimming</option>
-        <option value="basketball">Basketball</option>
-        <option value="soccer">Soccer</option>
-        <option value="boxing">Boxing</option>
-      </select>
+        <!-- Dropdown -->
+        <label for="dropdown">Preferred Workout</label>
+        <select id="dropdown">
+          <option value="running">Running</option>
+          <option value="cycling">Cycling</option>
+          <option value="calisthenics">Calisthenics</option>
+          <option value="weight-lifting">Weight Lifting</option>
+          <option value="swimming">Swimming</option>
+          <option value="basketball">Basketball</option>
+          <option value="soccer">Soccer</option>
+          <option value="boxing">Boxing</option>
+        </select>
+      </fieldset>
 
-      <!-- Radio Buttons -->
-      <p>What describes you best?</p>
-      <label><input type="radio" name="personality" value="introvert"> Introvert</label>
-      <label><input type="radio" name="personality" value="extrovert"> Extrovert</label>
-      <label><input type="radio" name="personality" value="depends"> It depends :)</label>
-      <label><input type="radio" name="personality" value="idk"> IDK :/</label>
+      <!-- Radio Buttons Fieldset -->
+      <fieldset>
+        <legend>What describes you best?</legend>
+        <label><input type="radio" name="personality" value="introvert"> Introvert</label>
+        <label><input type="radio" name="personality" value="extrovert"> Extrovert</label>
+        <label><input type="radio" name="personality" value="depends"> It depends :)</label>
+        <label><input type="radio" name="personality" value="idk"> IDK :/</label>
+      </fieldset>
 
-      <!-- Checkboxes -->
-      <p>Hobbies:</p>
-      <label><input type="checkbox" value="coding"> Coding</label>
-      <label><input type="checkbox" value="reading"> Reading</label>
-      <label><input type="checkbox" value="working-out"> Working Out</label>
-      <label><input type="checkbox" value="music"> Music</label>
-      <label><input type="checkbox" value="art"> Art</label>
-      <label><input type="checkbox" value="movies"> Movies</label>
-      <label><input type="checkbox" value="games"> Games</label>
+      <!-- Checkboxes Fieldset -->
+      <fieldset>
+        <legend>Hobbies</legend>
+        <label><input type="checkbox" value="coding"> Coding</label>
+        <label><input type="checkbox" value="reading"> Reading</label>
+        <label><input type="checkbox" value="working-out"> Working Out</label>
+        <label><input type="checkbox" value="music"> Music</label>
+        <label><input type="checkbox" value="art"> Art</label>
+        <label><input type="checkbox" value="movies"> Movies</label>
+        <label><input type="checkbox" value="games"> Games</label>
+      </fieldset>
 
       <!-- Textarea -->
       <label for="comments">Additional Comments:</label>
@@ -63,5 +70,4 @@
   </main>
 </body>
 </html>
-
 

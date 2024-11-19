@@ -25,7 +25,7 @@ form {
 
 label {
   margin-top: 10px;
-  display: block; /* Ensure labels are block-level by default */
+  display: block;
 }
 
 input, select, textarea, button {
@@ -48,9 +48,10 @@ button:hover {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: #cceeff;
+  margin: 5px 0;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 h1 {
@@ -58,7 +59,6 @@ h1 {
   font-weight: 800;
   color: #cceeff;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -87,8 +87,8 @@ legend {
 }
 
 input[type="radio"], input[type="checkbox"] {
-  margin: 0 5px 0 0; /* Add a small gap between the input and the label */
-  vertical-align: middle; /* Align the input with the text */
+  margin: 0 5px 0 0;
+  vertical-align: middle;
 }
 
 input[type="radio"]:not(:checked), input[type="checkbox"]:not(:checked) {
@@ -106,7 +106,7 @@ input[type="radio"]:not(:checked), input[type="checkbox"]:not(:checked) {
 
 .radio-group label, .checkbox-group label {
   display: inline-flex;
-  align-items: center; /* Align inputs with labels */
+  align-items: center;
 }
 
 input[type="text"], input[type="email"], input[type="number"], select, textarea {
@@ -115,34 +115,9 @@ input[type="text"], input[type="email"], input[type="number"], select, textarea 
   width: 100%;
   background: #f0f8ff;
   color: #333;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-input, select, textarea {
-  margin-top: 10px;
 }
 
 textarea {
-  height: 100px; /* Make sure the textarea is large enough */
-}
-
-button {
-  margin-top: 15px;
-  background: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #0056b3;
-}
-
-p {
-  font-size: 1rem;
-  color: #cceeff;
-  margin: 5px 0;
-  font-weight: bold;
+  height: 100px;
 }
 
