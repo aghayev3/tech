@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  color: #ffffff;
+}
+
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  display: block; /* Ensure labels are block-level by default */
+}
+
+input, select, textarea, button {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #cceeff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p#description {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #cceeff;
+  text-align: center;
+  margin: 10px auto 30px;
+  max-width: 600px;
+}
+
+fieldset {
+  border: 2px solid #cceeff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0 5px 0 0; /* Add a small gap between the input and the label */
+  vertical-align: middle; /* Align the input with the text */
+}
+
+input[type="radio"]:not(:checked), input[type="checkbox"]:not(:checked) {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.radio-group, .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.radio-group label, .checkbox-group label {
+  display: inline-flex;
+  align-items: center; /* Align inputs with labels */
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  background: #f0f8ff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input, select, textarea {
+  margin-top: 10px;
+}
+
+textarea {
+  height: 100px; /* Make sure the textarea is large enough */
+}
+
+button {
+  margin-top: 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  font-size: 1rem;
+  color: #cceeff;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
