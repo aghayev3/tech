@@ -111,8 +111,9 @@ input[type="radio"]:not(:checked), input[type="checkbox"]:not(:checked) {
 
 input[type="text"], input[type="email"], input[type="number"], select, textarea {
   display: block;
-  margin-top: 5px;
-  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
   background: #f0f8ff;
   color: #333;
 }
