@@ -1,0 +1,43 @@
+body {
+  background-color: #ece8d9; /* Neutral light background */
+  color: #333333; /* Dark gray text for readability */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#title {
+  color: #b22222; /* Firebrick red for the title */
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#img-caption {
+  font-style: italic;
+  color: #555555;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #d4af37; /* Gold accent for the link */
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+  color: #b22222; /* Firebrick red on hover */
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
