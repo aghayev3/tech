@@ -1,4 +1,0 @@
-# Task Scheduling
-
-* systemctl 
-* cron
